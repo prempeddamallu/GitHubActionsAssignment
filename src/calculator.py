@@ -27,6 +27,7 @@ def test_subtract():
 def test_multiply():
     assert multiply(2, 3) == 6
     assert multiply(8, 10) == 80
+    assert multiply(80, 10) == 800
 
 def test_divide():
     assert divide(6, 3) == 2
